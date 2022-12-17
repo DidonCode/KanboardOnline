@@ -3,7 +3,7 @@
 	$pdo = null;
 	$dsn = 'mysql: host=localhost; dbname=kanboard';
 	$dbUser = 'root';
-	$pw = 'lol';
+	$pw = '';
 
 	try{
 		$pdo = new PDO($dsn, $dbUser, $pw);
